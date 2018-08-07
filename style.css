@@ -1,0 +1,52 @@
+
+.hello
+{
+	white-space: normal;
+}
+
+
+.circle:before {
+  content: ' \25CF';
+  font-size: 20px;
+}
+
+.img img
+{
+	margin: 0 auto;
+}
+.img td
+{
+	background: white;
+}
+
+table
+{
+	background: white;
+	text-align: center;
+	font-size: 12px;
+    
+}
+img
+		{
+			max-width: 120px !important;	    
+		    
+		}
+
+
+.table-responsive>.fixed-column {
+    position: absolute;
+    display: inline-block;
+    width: auto;
+    border-right: 1px solid #ddd;
+}
+@media(min-width:768px) {
+    .table-responsive>.fixed-column {
+        display: none;
+    }
+}
+
+@media(max-width: 768px)
+{
+	
+
+}
